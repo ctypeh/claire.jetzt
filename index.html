@@ -1,93 +1,217 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <!--DEFINE-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--INFO-->
+    <meta name="author" content="Claire Violet" />
+    <meta
+      name="description"
+      content="Information about Claire Violet (she/her or it/its), a transgender photographer, archivist, and software engineer in Seattle, Washington."
+    />
+    <meta
+      name="keywords"
+      content="Claire Violet, Claire, Personal, Biography, Portfolio, Software, Engineer, Designer, Seattle, 108 C, 108-C, Pantone 108, assert_h, ctypeh, Ultra Violet, ultraviolet, ultraviolet.gay, Claire Ultra Violet"
+    />
+    <title>cv.h</title>
+    <meta property="og:url" content="https://claire.jetzt/" />
+    <meta
+      property="og:title"
+      content="Claire Violet, Trans Photographer & Software Engineer in Seattle, WA."
+    />
+    <meta
+      property="og:description"
+      content="Claire Violet is a trans photographer and software engineer in Seattle, Washington who loves transit and the color yellow."
+    />
+    <meta property="og:image" content="img/preview.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@assert_h" />
+    <meta name="twitter:creator" content="@assert_h" />
+    <link rel="me" href="https://tacobelllabs.net/@108" />
+    <!--STYLES-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/icon/favicon-16x16.png"
+    />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/img/icon/safari-pinned-tab.svg"
+      color="#fedb00"
+    />
+    <meta name="msapplication-TileColor" content="#fedb00" />
+    <meta name="msapplication-config" content="/img/icon/browserconfig.xml" />
+    <meta
+      name="theme-color"
+      content="#fedb00"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#440099"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <!--SCRIPTS-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<!--DEFINE-->
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--INFO-->
-	<meta name="author" content="Claire Violet">
-	<meta name="description" content="Information about Claire Violet (she/her or it/its), a transgender photographer, archivist, and software engineer in Seattle, Washington.">
-	<meta name="keywords" content="Claire Violet, Claire, Personal, Biography, Portfolio, Software, Engineer, Designer, Seattle, 108 C, 108-C, Pantone 108, assert_h, ctypeh, Ultra Violet, ultraviolet, ultraviolet.gay, Claire Ultra Violet">
-	<title>cv.h</title>
-	<meta property="og:url" content="https://claire.jetzt/">
-	<meta property="og:title" content="Claire Violet, Trans Photographer & Software Engineer in Seattle, WA.">
-	<meta property="og:description" content="Claire Violet is a trans photographer and software engineer in Seattle, Washington who loves transit and the color yellow.">
-	<meta property="og:image" content="img/preview.png">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@assert_h">
-	<meta name="twitter:creator" content="@assert_h">
-	<link rel="me" href="https://tacobelllabs.net/@108">
-	<!--STYLES-->
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="icon" type="image/png" href="icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/img/icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/img/icon/favicon-16x16.png">
-	<link rel="apple-touch-icon" href="icon.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/icon/apple-touch-icon.png">
-	<link rel="mask-icon" href="/img/icon/safari-pinned-tab.svg" color="#fedb00">
-	<meta name="msapplication-TileColor" content="#fedb00">
-	<meta name="msapplication-config" content="/img/icon/browserconfig.xml">
-	<meta name="theme-color" content="#fedb00" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="#440099" media="(prefers-color-scheme: dark)">
-	<link rel="stylesheet" href="css/theme.css">
-	<link rel="preconnect" href="https://rsms.me/">
-	<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-	<!--SCRIPTS-->
-	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-	<script src="js/script.js"></script>
-</head>
-
-<body>
-	<r-grid columns=3 columns-s=1 style="max-width: 1000px;">
-		<r-cell span=row>
-			<div id="roundel" class="roundel"><span class="icon-text" id="cv">CV</span></div>
-			<img id="banner" alt="California Poppies in the afternoon sunlight, growing on the western shoreline of Seattle, Washington. In the background, a cloudy blue sky, and the vague outline of a tree-covered hill." src="img/banners/alki.jpeg">
-			<h1 id="title">
-				<span id="greeting">Hallo,</span> I’m <span class="highlight">Claire&nbsp;Violet</span><span class="rainbow">.</span>
-			</h1>
-		</r-cell>
-		<r-cell span=3>
-			<p>
-				I’m a trans photographer and software engineer. My pronouns are she/her or it/its, whichever you feel most comfortable using. I live in beautiful, sunny Seattle, Washington. Since 2022, I’ve been volunteering as the archivist for the <a title="The Connections Museum of Electromechanical Telephone Switching" href="https://connections.museum">Connections Museum</a>, preserving and organizing their library’s unique collection of telecommunications history. I love good design, philately, trains, and protected bike lanes.
-			</p>
-			<h3>Photography</h3>
-			<p>
-				<a href="http://glass.photo/108c">You can see the best of my photography on Glass.</a> Glass is a community and photo-sharing app for photographers, that I’ve really enjoyed using. You don’t need an account to browse my work, and you can even follow my posts there without making an account <a href="http://glass.photo/108c/rss">via the RSS feed.</a> If I ever have news about projects I’m working on, a run of prints available, or maybe one day a small photobook project, I’ll announce more information about that here on my website and on Glass. If you like one of my photos very much, please get in touch, and I would be happy to sell you a one-off custom print. Thanks for taking an interest!
-			</p>
-			<h3>Archives</h3>
-			<p>
-				Historic preservation, especially of graphic design and ephemeral media, through digitization is really important to me. I've digitized a lot of documents for the Connections Museum Seattle—many of which are available on <a href="https://archive.org/details/@108c" style="overflow-wrap: anywhere !important;">my Internet Archive profile</a>—including a <a href="https://archive.org/details/@108c/lists/1/bell-system---graphics-standards-manuals" style="line-break: anywhere;">large collection of the Bell System's graphical standards manuals done by Saul Bass in 1969,</a> which I think are just stunningly gorgeous.
-			</p>
-			<h3>Contact</h3>
-			<p>
-				If you'd like to, you can email me. <span class="callout">hallo (at) claire (dot) jetzt</span>
-			</p>
-			<hr>
-		</r-cell>
-		<r-cell span=3> 
-			<h3 id="colorway">About the Colors</h3>
-			<p>
-				This website makes liberal use of my favorite PANTONE colors, <span onclick="navigator.clipboard.writeText('#fedb00')" style="cursor: crosshair;" class="yellow">●</span>&nbsp;<a href="https://www.pantone.com/connect/108-C">108&nbsp;C</a> and <span onclick="navigator.clipboard.writeText('#440099')" style="cursor: crosshair;" class="violet">●</span>&nbsp;<a href="https://www.pantone.com/connect/VIOLET-C">Violet&nbsp;C</a>.<sup><em>†‡</em></sup> I love to use vibrant color wherever I can, and these two colors have represented me across the internet for quite a while now. I love how warm and full of sunlight this particular yellow is. Violet is a <a href="https://en.wikipedia.org/wiki/Spectral_color">spectral color</a> and likely isn't depicted very well on your device's screen. 
-			</p>
-		</r-cell>
-		<r-cell span=3>
-			<h3 id="colophon">Note on the Type</h3>
-			<p>
-				This website is typeset in <a title="Information on the Typeface" href="https://rsms.me/inter/">Inter,</a> an experimental and open-source typeface created in 2016 by Rasmus Andersson. Inter was designed specifically for computer-screens, with the intent of crafting highly-readable user interfaces. It's a beautifully clear but subtle typeface that departs from the all-encompassing use of Helvetica. <a title="Notable projects using the typeface Inter" href="https://github.com/rsms/inter#notable-projects-using-inter">Perhaps you recognize it?</a>
-			</p>
-			<hr>
-		</r-cell>
-		<r-cell span=3>
-			<span class="note">
-				† Colors shown on this site are computer simulations of the PANTONE Colors and may not match PANTONE-identified color standards. Always consult PANTONE Publications to visually evaluate any result before utilization.
-				<br>
-				‡ PANTONE® is a registered trademark of Pantone LLC in the United States and/or other countries.
-			</span>
-		</r-cell>
-	</r-grid>
-</body>
-
+  <body>
+    <r-grid columns="3" columns-s="1" style="max-width: 1000px">
+      <r-cell span="row">
+        <div id="roundel" class="roundel">
+          <span class="icon-text" id="cv">CV</span>
+        </div>
+        <img
+          id="banner"
+          alt="California Poppies in the afternoon sunlight, growing on the western shoreline of Seattle, Washington. In the background, a cloudy blue sky, and the vague outline of a tree-covered hill."
+          src="img/banners/alki.jpeg"
+        />
+        <h1 id="title">
+          <span id="greeting">Hallo,</span> I’m
+          <span class="highlight">Claire&nbsp;Violet</span
+          ><span class="rainbow">.</span>
+        </h1>
+      </r-cell>
+      <r-cell span="3">
+        <p>
+          I’m a trans photographer and software engineer. My pronouns are
+          she/her or it/its, whichever you feel most comfortable using. I live
+          in beautiful, sunny Seattle, Washington. Since 2022, I’ve been
+          volunteering as the archivist for the
+          <a
+            title="The Connections Museum of Electromechanical Telephone Switching"
+            href="https://connections.museum"
+            >Connections Museum</a
+          >, preserving and organizing their library’s unique collection of
+          telecommunications history. I love good design, philately, trains, and
+          protected bike lanes.
+        </p>
+        <h3>Photography</h3>
+        <p>
+          <a href="http://glass.photo/108c"
+            >You can see the best of my photography on Glass.</a
+          >
+          Glass is a community and photo-sharing app for photographers, that
+          I’ve really enjoyed using. You don’t need an account to browse my
+          work, and you can even follow my posts there without making an account
+          <a href="http://glass.photo/108c/rss">via the RSS feed.</a> If I ever
+          have news about projects I’m working on, a run of prints available, or
+          maybe one day a small photobook project, I’ll announce more
+          information about that here on my website and on Glass. If you like
+          one of my photos very much, please get in touch, and I would be happy
+          to sell you a one-off custom print. Thanks for taking an interest!
+        </p>
+        <h3>Archives</h3>
+        <p>
+          Historic preservation, especially of graphic design and ephemeral
+          media, through digitization is really important to me. I've digitized
+          a lot of documents for the Connections Museum Seattle—many of which
+          are available on
+          <a
+            href="https://archive.org/details/@108c"
+            style="overflow-wrap: anywhere !important"
+            >my Internet Archive profile</a
+          >—including a
+          <a
+            href="https://archive.org/details/@108c/lists/1/bell-system---graphics-standards-manuals"
+            style="line-break: anywhere"
+            >large collection of the Bell System's graphical standards manuals
+            done by Saul Bass in 1969,</a
+          >
+          which I think are just stunningly gorgeous.
+        </p>
+        <h3>Contact</h3>
+        <p>
+          If you'd like to, you can email me.
+          <span class="callout">hallo (at) claire (dot) jetzt</span>
+        </p>
+        <hr />
+      </r-cell>
+      <r-cell span="3">
+        <h3 id="colorway">About the Colors</h3>
+        <p>
+          This website makes liberal use of my favorite PANTONE colors,
+          <span
+            onclick="navigator.clipboard.writeText('#fedb00')"
+            style="cursor: crosshair"
+            class="yellow"
+            >●</span
+          >&nbsp;<a href="https://www.pantone.com/connect/108-C">108&nbsp;C</a>
+          and
+          <span
+            onclick="navigator.clipboard.writeText('#440099')"
+            style="cursor: crosshair"
+            class="violet"
+            >●</span
+          >&nbsp;<a href="https://www.pantone.com/connect/VIOLET-C"
+            >Violet&nbsp;C</a
+          >.<sup><em>†‡</em></sup> I love to use vibrant color wherever I can,
+          and these two colors have represented me across the internet for quite
+          a while now. I love how warm and full of sunlight this particular
+          yellow is. Violet is a
+          <a href="https://en.wikipedia.org/wiki/Spectral_color"
+            >spectral color</a
+          >
+          and likely isn't depicted very well on your device's screen.
+        </p>
+      </r-cell>
+      <r-cell span="3">
+        <h3 id="colophon">Note on the Type</h3>
+        <p>
+          This website is typeset in
+          <a title="Information on the Typeface" href="https://rsms.me/inter/"
+            >Inter,</a
+          >
+          an experimental and open-source typeface created in 2016 by Rasmus
+          Andersson. Inter was designed specifically for computer-screens, with
+          the intent of crafting highly-readable user interfaces. It's a
+          beautifully clear but subtle typeface that departs from the
+          all-encompassing use of Helvetica.
+          <a
+            title="Notable projects using the typeface Inter"
+            href="https://github.com/rsms/inter#notable-projects-using-inter"
+            >Perhaps you recognize it?</a
+          >
+        </p>
+        <hr />
+      </r-cell>
+      <r-cell span="3">
+        <span class="note">
+          † Colors shown on this site are computer simulations of the PANTONE
+          Colors and may not match PANTONE-identified color standards. Always
+          consult PANTONE Publications to visually evaluate any result before
+          utilization.
+          <br />
+          ‡ PANTONE® is a registered trademark of Pantone LLC in the United
+          States and/or other countries.
+        </span>
+      </r-cell>
+    </r-grid>
+  </body>
 </html>

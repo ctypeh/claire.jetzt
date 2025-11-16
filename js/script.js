@@ -25,6 +25,7 @@ $(document).ready(function () {
     { icon: "↪", id: "return" },
     { icon: "℅", id: "care-of" },
     { icon: "⏻", id: "power" },
+    { icon: "&#127744;", id: "spiral" },
   ];
   let isHovering = false;
 
